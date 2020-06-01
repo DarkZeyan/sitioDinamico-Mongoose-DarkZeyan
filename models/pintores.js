@@ -15,8 +15,8 @@ let pintoresSchema = new Schema({
     nacionalidad:{
         type: String
     },
-    pintura:{
-        type:String
+    pintura: {
+        type: String
     }
 
 });
