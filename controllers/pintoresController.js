@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 //Lo enlazamos al modelo
-let Pintores = require('../models/pintores');
+let pintores = require('../models/pintores');
 
 let pintoresController = {};
 

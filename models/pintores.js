@@ -20,4 +20,4 @@ let pintoresSchema = new Schema({
     }
 
 });
-module.exports = mongoose.model('Pintores', pintoresSchema);
+module.exports = mongoose.model('pintores', pintoresSchema);

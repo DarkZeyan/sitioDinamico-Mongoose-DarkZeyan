@@ -18,7 +18,7 @@ app.use(express.static(__dirname + '/public'));
 app.use('/',pintoresRouter);
 // Conexion con MongoDB
 mongoose.Promise = global.Promise;
-const cadena  =  'mongodb+srv://zeyan:altair842@e-escobar-jorgecbtis122-kjbmi.azure.mongodb.net/test?retryWrites=true&w=majority';
+const cadena  =  'mongodb+srv://zeyan:altair842@e-escobar-jorgecbtis122-kjbmi.azure.mongodb.net/practicaFinal?retryWrites=true&w=majority';
 mongoose.connect(cadena,{useNewUrlParser:true,useUnifiedTopology:true})
     .then(()=>{
         console.log('Conexion exitosa')
