@@ -16,7 +16,9 @@ pintoresController.list = (req,res)=>{
             res.render('../views/index',{
                 pintores:pintor,
                 titulo: "Listado de Pintores",
-                year: new Date().getDate()
+                year: new Date().getFullYear(),
+                nombreAlumno : "Jorge Eduardo Escobar Bugarini",
+                grupo : "4° E",
             })
         })
 }

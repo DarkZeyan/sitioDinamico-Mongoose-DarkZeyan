@@ -17,7 +17,18 @@ let pintoresSchema = new Schema({
     },
     pintura: {
         type: String
+    },
+    biografia:{
+        type: String,
+        required:[true,'Se requiere su biografia']
+    },
+    nacimiento:{
+        type:String,
+        required:[true,'Se requiere su fecha de nacimiento']
+    },
+    fallecimiento:{
+        type:String,
+        required:[true,'Se requiere su fecha de fallecimiento']
     }
-
 });
 module.exports = mongoose.model('pintores', pintoresSchema);
